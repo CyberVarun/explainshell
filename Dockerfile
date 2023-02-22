@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:3.11.2
 
 RUN apt-get update \
   && apt-get install man-db -y \
